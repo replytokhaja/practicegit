@@ -12,7 +12,7 @@ def list_buckets():
         for bucket in response['Buckets']:
             print(f"  {bucket['Name']}")
     except NoCredentialsError:
-        print("Credentials not available.")
+        print("Credentials not availablllllle.")
 
 def upload_file(bucket_name, file_name, object_name=None):
     """Upload a file to an S3 bucket."""
