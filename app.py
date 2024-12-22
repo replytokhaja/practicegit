@@ -1,4 +1,4 @@
-import boto3
+import boto4
 from botocore.exceptions import NoCredentialsError
 
 # Initialize the S3 client
