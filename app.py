@@ -1,6 +1,5 @@
+<<<<<<< HEAD
 import boto7
-from botocore.exceptions import NoCredentialsError
-
 # Initialize the S3 client
 s3 = boto3.client('s3')
 
